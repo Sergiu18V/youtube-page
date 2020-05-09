@@ -67,3 +67,25 @@ img {
 }
 
 /*Need to increase the padding in the right navbar section and then proceed to the video*/
+
+/*Container with both video and aside*/
+/*.container {
+	display: inline-block;
+	background: #f9f9f9;
+	
+	border: 1px solid;
+}
+*/
+/*Video*/
+#video {
+/*	position: relative;
+	top: 100px;*/
+	background: #f9f9f9;
+	margin-top: 60px;
+	padding-left: 100px;
+	width: 1280px;
+	height: 720px;
+	float: left;
+}
+
+/*Side Section*/
