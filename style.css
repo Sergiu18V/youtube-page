@@ -69,23 +69,48 @@ img {
 /*Need to increase the padding in the right navbar section and then proceed to the video*/
 
 /*Container with both video and aside*/
-/*.container {
-	display: inline-block;
-	background: #f9f9f9;
-	
-	border: 1px solid;
+#container {
+	display: flex;
 }
-*/
+
 /*Video*/
-#video {
-/*	position: relative;
-	top: 100px;*/
-	background: #f9f9f9;
-	margin-top: 60px;
-	padding-left: 100px;
-	width: 1280px;
-	height: 720px;
-	float: left;
+#mainvideo { 
+/*display: flex;
+background-color: #ff9e2c;
+flex: 1;
+width: 50%;*/
+margin-top: 50px;
+margin-left: 50px;
+width: 50%;
 }
 
 /*Side Section*/
+#sidevideos {
+	/*
+	background-color: #b6701e;
+  	flex: 1;*/
+  	width: 40%;
+  	display: flex;
+  	flex-direction: column;
+  	position: relative;
+  	top: -965px;
+  	left: 800px;
+  	margin-right: 10px;
+
+
+
+}
+
+/*Videos inside the sidebar*/
+.video {
+float: left;
+padding-bottom: 10px;
+}
+
+#statistics {
+
+}
+
+#testing {
+	display: inline-block;
+}
